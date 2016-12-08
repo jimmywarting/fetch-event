@@ -1,6 +1,8 @@
 # fetch-event
 FetchEvent outside Service Worker
 
+[![npm Package](https://img.shields.io/npm/v/fetch-event.svg?style=flat-square)](https://www.npmjs.org/package/fetch-event)
+
 Simple http mocking
 ```js
 var nodeFetch = require('node-fetch')
