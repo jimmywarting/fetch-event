@@ -37,4 +37,4 @@ fetch.on('fetch', event => event.respondWith(
 ))
 ```
 
-  [1]: cacheStorage
+  [1]: https://www.npmjs.com/package/fetch-cachestorage
