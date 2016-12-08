@@ -21,7 +21,7 @@ fetch('http://example.com')
 Using [fetch-cachestorage][1] you can create your own cache mechanism
 ```js
 var nodeFetch = require('node-fetch')
-var {fetch, Response} = require('./node')(nodeFetch)
+var {fetch, Response} = require('fetch-event')(nodeFetch)
 
 /*
  * Will see if it exist in the cache, if not it will fetch it
