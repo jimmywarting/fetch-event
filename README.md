@@ -6,7 +6,7 @@ FetchEvent outside Service Worker
 Simple http mocking
 ```js
 var nodeFetch = require('node-fetch')
-var {fetch, Response} = require('./node')(nodeFetch)
+var {fetch, Response} = require('fetch-event')(nodeFetch)
 
 fetch.on('fetch', event => {
   console.log(event.request.url) // http://example.com
