@@ -1,0 +1,24 @@
+{
+  "name": "fetch-event",
+  "version": "1.0.0-alpha",
+  "description": "FetchEvent outside Service Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jimmywarting@github.com/jimmywarting/fetch-event.git"
+  },
+  "keywords": [
+    "fetch",
+    "event",
+    "fetchevent"
+  ],
+  "author": "Jimmy Wärting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmywarting/fetch-event/issues"
+  },
+  "homepage": "https://github.com/jimmywarting/fetch-event#readme"
+}
